@@ -1,0 +1,5 @@
+INFO User logged in 
+ERROR Failed to connect to database
+INFO File uploaded successfully WARNING Disk space low 
+ERROR Timeout occurred INFO User logged out 
+ERROR Failed to connect to database
