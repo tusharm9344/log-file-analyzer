@@ -8,7 +8,6 @@ if [[ -z "$TARGET_FILE" || ! -f "$TARGET_FILE" ]]; then
   echo "Usage: $0 <log_file>"
   exit 1
 fi
-
 echo "error count---------------------" > "$LOG_FILE"
 grep -w "ERROR" "$TARGET_FILE"|wc -l > "$LOG_FILE"
 
